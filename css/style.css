@@ -1,0 +1,103 @@
+@import url(fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.slider {
+    width: 1098px;
+    height: 405px;
+    position: relative;
+    box-shadow: 3px 0px 20px  black;
+}
+
+.cont {
+    display: flex;
+}
+
+.content {
+    width: 387px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img {
+    display: flex;
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 400;
+    gap: 5px;
+    margin-right: 50px;
+}
+
+.bold {
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.list {
+    font-family: 'roboto';
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 50px;
+}
+
+.slick-arrow {
+    width: 54px;
+    height: 54px;
+    background: none;
+    color: transparent;
+    border: none;
+}
+
+.slick-prev {
+    position: absolute;
+    left: -300px;
+    top: 200px;
+    background-image: url(../images/chevron-left.png);
+}
+
+.slick-next {
+    position: absolute;
+    right: -300px;
+    top: 200px;
+    background-image: url(../images/chevron-right.png);
+}
+
+.slick-dots {
+    position: absolute;
+    left: -150px;
+    top: 0px;
+    z-index: 100;
+}
+
+.slick-dots li {
+    list-style: none;
+    width: 82px;
+    height: 58px;
+    background-image: url(../images/Rectangle\ 26.png);
+    margin: 10px;
+}
+
+.slick-dots button {
+    font-size: 0;
+    border: none;
+}
