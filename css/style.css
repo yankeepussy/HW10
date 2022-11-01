@@ -73,6 +73,7 @@ body {
   left: -150px;
   top: 200px;
   background-image: url(../images/chevron-left.png);
+  cursor: pointer;
 }
 
 .slick-next {
@@ -80,6 +81,7 @@ body {
   right: -150px;
   top: 200px;
   background-image: url(../images/chevron-right.png);
+  cursor: pointer;
 }
 
 .slick-dots {
@@ -95,6 +97,7 @@ body {
   height: 58px;
   background-image: url(../images/Rectangle\ 26.png);
   margin: 10px;
+  cursor: pointer;
 }
 
 .slick-dots button {
@@ -102,6 +105,3 @@ body {
   border: none;
 }
 
-.slick-dots button:hover {
-  cursor: pointer;
-}
